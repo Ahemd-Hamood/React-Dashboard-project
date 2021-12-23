@@ -1,0 +1,80 @@
+.CustomerTrans-table {
+ padding: 0;
+ margin: 0;
+ width: 100%;
+ border-spacing: 12px;
+ margin-top: -22px;
+ padding: 10px 0;
+}
+
+.CustomerTrans-table .trans-headers-content {
+ text-align: left;
+ text-align: left;
+ color: #353b48;
+ position: sticky;
+ top: 0px;
+ background: #ffff;
+}
+
+th {
+ padding: 8px 0;
+ border-bottom: 1px solid #dfe6e9;
+}
+
+.trans-header-title {
+ font-size: 18px;
+}
+
+.trans-CustomerName-column {
+ width: 200px;
+ font-size: 18px;
+ display: flex;
+ align-items: center;
+}
+
+.trans-customer-Name {
+ font-weight: 600;
+ margin-left: 10px;
+}
+
+.trans-Date-column,
+.trans-Amount-column {
+ font-weight: 400;
+}
+
+.trans-status-column {
+ text-align: center;
+}
+
+.trans-customer-img {
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ object-fit: cover;
+}
+
+.status-cell{
+  font-weight: 500;
+}
+
+.statusBtn {
+ color: #ffffff;
+ font-weight: 600;
+ padding: 8px 10px;
+ border: none;
+ outline: none;
+ border-radius: 5px;
+}
+
+.statusBtn.Approved {
+ background: #009431a3;
+ color: #006721;
+}
+.statusBtn.Pending {
+ background: #f6a40ba9;
+ color: #5b3b00;
+}
+.statusBtn.Declined {
+ background: #ea2027b1;
+ color: #480003;
+}

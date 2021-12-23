@@ -1,0 +1,51 @@
+/* components/LeftSection Styling */
+
+.logo-title{
+  font-weight: 500;
+  font-size: 28px;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+
+/* components/RightSection Styling */
+
+.topNavbar-right-section{
+  display: flex;
+  align-items: center;
+}
+
+.icons-container{
+  position: relative;
+  cursor: pointer;
+  margin-right: 25px;
+  margin-top: 1px;
+  color: #2c3e50;
+}
+
+.notify-counter{
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: -5px;
+  right: -16px;
+  background: #e74c3c;
+  color: white;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.icons-container .icon{
+  font-size: 1.7rem !important;
+}
+
+.img-profile{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
