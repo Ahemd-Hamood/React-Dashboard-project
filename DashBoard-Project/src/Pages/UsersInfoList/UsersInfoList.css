@@ -1,0 +1,67 @@
+.username-content {
+ display: flex;
+ align-items: center;
+}
+
+.username-content .user-img {
+ width: 35px;
+ height: 35px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin-right: 10px;
+}
+
+.action-btn {
+ color: #487eb0;
+ font-size: 13px;
+ font-weight: 700;
+ padding: 8px 14px;
+ margin-right: 22px;
+ outline: none;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.4s all;
+}
+
+.userEdit {
+ color: #40739e;
+ background: #ffffff00;
+ border: 1px solid #40739e;
+}
+
+.userEdit:hover {
+ background: #40739e;
+ color: #fff;
+}
+
+.userAdd-content {
+ display: block;
+ text-align: left;
+ margin-bottom: 10px;
+ flex:1;
+}
+
+.userAdd {
+ font-size: 15px;
+ color: #eb4d4b;
+ background: #ffffff00;
+ border: 2px solid #eb4e4ba3;
+ margin-right: 0px;
+ width: 160px;
+ cursor: pointer;
+}
+
+.userAdd:hover {
+ background: #eb4d4b;
+ color: #fff;
+}
+
+.userDelete-icon {
+ font-size: 30px !important;
+ color: #e74c3c;
+ cursor: pointer;
+}
+
+.userDelete-icon:hover {
+ color: #c03323;
+}
